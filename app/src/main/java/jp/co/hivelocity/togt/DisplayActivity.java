@@ -1,8 +1,8 @@
 package jp.co.hivelocity.togt;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import org.rabbitconverter.rabbit.Rabbit;
@@ -33,9 +33,7 @@ public class DisplayActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         extras = getIntent().getExtras();
 
-        MyApplication app = (MyApplication)getApplicationContext();
-
-        if (extras!= null) {
+        if (extras != null) {
             String input = extras.getString("input");
 
             if (detector(input) == 1) { // for unicode
