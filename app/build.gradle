@@ -26,4 +26,6 @@ dependencies {
     compile('org.rabbit-converter.rabbit:rabbit:0.0.3') {
         exclude group: 'org.json', module: 'json'
     }
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile files('libs/mmtext.jar')
 }
