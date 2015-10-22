@@ -52,7 +52,7 @@ public class DisplayActivity extends AppCompatActivity {
 
                 shareMessage = "[Unicode]\n";
                 shareMessage += input;
-                shareMessage += "Zawgyi Version :\n";
+                shareMessage += "[Zawgyi]\n";
                 shareMessage += uni2zg + "\n\n";
 
             } else {
@@ -62,7 +62,7 @@ public class DisplayActivity extends AppCompatActivity {
 
                 shareMessage = "[Zawgyi]\n";
                 shareMessage += input + "\n";
-                shareMessage += "Unicode Version :\n";
+                shareMessage += "[Unicode]\n";
                 shareMessage += zg2uni;
             }
 
