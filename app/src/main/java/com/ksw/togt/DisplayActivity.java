@@ -1,4 +1,4 @@
-package jp.co.hivelocity.togt;
+package com.ksw.togt;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
