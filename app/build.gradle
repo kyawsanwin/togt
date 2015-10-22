@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "jp.co.hivelocity.togt"
+        applicationId "com.ksw.togt"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
